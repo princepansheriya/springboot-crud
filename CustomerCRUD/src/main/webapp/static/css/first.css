@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.input-box button, .input-box .resetBtn, .input-box .view-page-link {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+}
+
+.input-box {
+	margin-bottom: 16px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="tel"], input[type="number"], input[type="date"],
+	input[type="email"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 8px;
+	box-sizing: border-box;
+}
+
+input[type="radio"] {
+	margin-right: 5px;
+}
+
+.button {
+	text-align: center;
+}
+
+#save {
+	background-color: #2980b9;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: not-allowed;
+}
+
+#save.enabled {
+	cursor: pointer;
+	/* Any other styles you want to add when enabled */
+}
+
+#save:hover {
+	background-color: #0080c0;
+}
+
+.resetBtn {
+	background-color: #2980b9;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+}
+
+.cleble {
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+a#viewPage {
+	background-color: #2980b9;
+	color: white;
+	padding: 9px;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	text-decoration: none;
+}
